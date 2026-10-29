@@ -1,0 +1,118 @@
+{
+  "version": "1.0.3",
+  "scope": "author-written targeted check; implementing-agent direct review; not a user or heldout result",
+  "total": 8,
+  "execution": {
+    "success": 8
+  },
+  "mechanical": {
+    "no_mechanical_issue": 8
+  },
+  "semantic": {
+    "preserved": 8
+  },
+  "target": {
+    "met": 6,
+    "unmet": 1,
+    "uncertain": 1
+  },
+  "records": [
+    {
+      "case_id": "r3-referent-personal",
+      "kind": "referent-literary",
+      "skill": "beard",
+      "regression_of": null,
+      "execution": "success",
+      "changed": true,
+      "mechanical": "no_mechanical_issue",
+      "semantic": "preserved",
+      "target": "met",
+      "notes": "‘그 순서를’을 그대로 두고 구어 축약을 들이지 않았다. 셋째 문장의 ‘지금까지도 여전히 … 남아 있다’를 ‘그 시간은 지금도 선명하게 기억난다’로 줄였다. ‘그’를 더했지만 가리키는 대상이 같아 뜻은 같다. 담담한 말투 유지."
+    },
+    {
+      "case_id": "r3-referent-column",
+      "kind": "referent-literary",
+      "skill": "beard",
+      "regression_of": null,
+      "execution": "success",
+      "changed": true,
+      "mechanical": "no_mechanical_issue",
+      "semantic": "preserved",
+      "target": "unmet",
+      "notes": "FR-036의 핵심인 ‘그 밝음이’는 지켰다. 그러나 사전 기준이 정한 ‘~라는 점을 우리는 생각해 볼 필요가 있다’ 포장은 어순만 바꾸고 남겼다. 칼럼에서 독자에게 성찰을 권하는 기능으로 볼 여지는 있지만, 사전 기준대로 미달로 기록한다."
+    },
+    {
+      "case_id": "r3-contraction-chat",
+      "kind": "contraction-casual",
+      "skill": "beard",
+      "regression_of": null,
+      "execution": "success",
+      "changed": true,
+      "mechanical": "no_mechanical_issue",
+      "semantic": "preserved",
+      "target": "met",
+      "notes": "‘그것을·그것이’를 축약하지 않고 아예 생략했다(‘오늘 다 읽었어’, ‘왜 좋다고 했는지’). 앞 문장이 책을 가리켜 뜻이 그대로이고, 반말 메시지 말투가 분명히 나아졌다. 새 규칙이 대화체 축약을 막았는지는 이 출력만으로 알 수 없다."
+    },
+    {
+      "case_id": "r3-notool-modality",
+      "kind": "tool-unavailable",
+      "skill": "beard",
+      "regression_of": null,
+      "execution": "success",
+      "changed": true,
+      "mechanical": "no_mechanical_issue",
+      "semantic": "preserved",
+      "target": "met",
+      "notes": "스크립트 없이 ‘원인에 대한 점검을 진행할 필요가 있다’를 ‘원인을 점검할 필요가 있다’로 고쳤고, 첫 문장의 부정은 그대로 뒀다. 결과만 요청에 메모를 붙이지 않았다. 1.0.2의 reader-15처럼 수정을 포기하지 않았다."
+    },
+    {
+      "case_id": "r3-notool-numbers",
+      "kind": "tool-unavailable",
+      "skill": "beard",
+      "regression_of": null,
+      "execution": "success",
+      "changed": true,
+      "mechanical": "no_mechanical_issue",
+      "semantic": "preserved",
+      "target": "met",
+      "notes": "15일·3일 이내를 글자 그대로 지켰고 메모를 붙이지 않았다. ‘검토는 … 진행될 예정이며’가 ‘3일 이내에 검토하고, … 안내드릴 예정입니다’로 바뀌어 예정이 문장 끝에서 두 절을 함께 받는 구조가 됐다. 안내문에서 같은 뜻으로 읽힌다고 판단한다."
+    },
+    {
+      "case_id": "r3-notool-reasons",
+      "kind": "tool-unavailable",
+      "skill": "beard",
+      "regression_of": null,
+      "execution": "success",
+      "changed": true,
+      "mechanical": "no_mechanical_issue",
+      "semantic": "preserved",
+      "target": "met",
+      "notes": "이유를 짧게 주면서 스크립트를 실행했다고 주장하지 않았다. 승인 조건·시행 가능성·다음 달 결정 예정을 유지했다."
+    },
+    {
+      "case_id": "r3-regress-edit18",
+      "kind": "regression",
+      "skill": "beard",
+      "regression_of": "edit-18",
+      "execution": "success",
+      "changed": true,
+      "mechanical": "no_mechanical_issue",
+      "semantic": "preserved",
+      "target": "uncertain",
+      "notes": "1.0.2는 원문 유지였는데 이번에는 ‘신청 조건에 대한 설명’을 ‘신청 조건 설명’으로 줄였다. 축약이나 같은 뜻의 단어 교체는 아니고 의미 손상도 없다. 다만 읽기 이득이 작아 사전 기준(원문 유지 또는 이득 있는 수정)의 충족을 확정하지 않는다. 같은 원고에서 실행마다 판단이 갈린 사례다."
+    },
+    {
+      "case_id": "r3-regress-state",
+      "kind": "regression",
+      "skill": "beard",
+      "regression_of": null,
+      "execution": "success",
+      "changed": true,
+      "mechanical": "no_mechanical_issue",
+      "semantic": "preserved",
+      "target": "met",
+      "notes": "완료·현재 확인 중·아직 미정 세 상태를 그대로 두고 늘어진 서술만 줄였다. 1.0.2 상태 기준 유지."
+    }
+  ],
+  "changed_after_run": {}
+}
