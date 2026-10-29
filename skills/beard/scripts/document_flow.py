@@ -49,9 +49,11 @@ def assemble_document(plan,rewrites,original):
  text=''.join(result)
  return dict(text=text,block_count=len(plan['blocks']),inspection=inspect_text(original,text),semantic_equivalence='unknown')
 def main():
+ sys.stdout.reconfigure(encoding='utf-8')
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('mode',choices=['plan','assemble']);p.add_argument('--budget',type=int,default=6000);a=p.parse_args()
  try:
-  data=json.load(sys.stdin);out=plan_document(data['original'],a.budget) if a.mode=='plan' else assemble_document(data['plan'],data['rewrites'],data['original'])
+  # UTF-8 JSON regardless of the console locale (e.g. cp949).
+  data=json.loads(sys.stdin.buffer.read().decode('utf-8-sig'));out=plan_document(data['original'],a.budget) if a.mode=='plan' else assemble_document(data['plan'],data['rewrites'],data['original'])
  except (ValueError,KeyError,TypeError) as e:print(json.dumps(dict(error=type(e).__name__,message=str(e)),ensure_ascii=False));return 2
  print(json.dumps(out,ensure_ascii=False,indent=2));return 0
 if __name__=='__main__':raise SystemExit(main())

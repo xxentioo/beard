@@ -8,8 +8,9 @@ CUES={
  'possibility':re.compile(r'수\s*있|가능성|가능(?:하|합|했)|지도\s*모르'),
  'impossibility':re.compile(r'수\s*없|불가능'),
  'obligation':re.compile(r'해야|하여야|해\s*주셔야|필수|의무'),
- 'negation':re.compile(r'않|아니(?:다|라|었|며)|아닙|없|(?:^|\s)못\s'),
- 'condition':re.compile(r'경우|한하여|한해|에게만|해야만')}
+ 'negation':re.compile(r'않|아니(?:다|라|었|며|면|고)|아닙|없|(?<!\w)(?:못|안)(?=\s+\S)'),
+ # Conservative ending coverage: matching every word ending in 면 would flag 화면.
+ 'condition':re.compile(r'경우|한하여|한해|에게만|해야만|(?<!\w)(?:[가-힣]+(?:으면|다면|려면|이면)|[가-힣]*(?:하면|되면)|오면|가면|내면|주면|보내면|받으면|끝나면|열리면|닫히면)(?=[\s,.;!?]|$)')}
 def immutable(text):
  return collections.Counter((m.lastgroup,m.group().rstrip('.,;') if m.lastgroup=='address' else m.group()) for m in IMMUTABLE.finditer(text))
 def numbers(text):
@@ -31,6 +32,16 @@ def inspect_text(original,revised,protected_literals=None):
  bn=numbers(original);an=numbers(revised)
  if bn!=an:findings.append(dict(kind='number_or_unit',severity='needs_review',removed=dict(bn-an),added=dict(an-bn)))
  bs=sentences(original);ass=sentences(revised)
+ # Equal document totals can hide values reassigned to a different subject.
+ # Align by words, excluding values; ambiguity is a review signal, never a verdict.
+ if bn==an and len(bs)>1 and len(ass)>1:
+  for index,s in enumerate(bs):
+   if not numbers(s):continue
+   anchor=NUMBER.sub('#',IMMUTABLE.sub(' ',s))
+   ranked=sorted([(difflib.SequenceMatcher(None,anchor,NUMBER.sub('#',IMMUTABLE.sub(' ',a)),autojunk=False).ratio(),j,a) for j,a in enumerate(ass)],reverse=True)
+   similarity,j,candidate=ranked[0]
+   if similarity>=0.65 and numbers(s)!=numbers(candidate):
+    findings.append(dict(kind='numeric_scope',severity='needs_review',source_sentence=index+1,candidate_sentence=j+1,alignment_similarity=round(similarity,3),removed=dict(numbers(s)-numbers(candidate)),added=dict(numbers(candidate)-numbers(s))))
  for index,s in enumerate(bs):
   cues=[k for k,rx in CUES.items() if rx.search(s)]
   if not cues:continue
@@ -47,8 +58,10 @@ def read_payload(args):
  if args.before or args.after:
   if not args.before or not args.after:raise ValueError('--before and --after must be provided together')
   return dict(original=Path(args.before).read_text(encoding='utf-8-sig'),revised=Path(args.after).read_text(encoding='utf-8-sig'))
- return json.load(sys.stdin)
+ # The payload contract is UTF-8 JSON; do not depend on the console locale (e.g. cp949).
+ return json.loads(sys.stdin.buffer.read().decode('utf-8-sig'))
 def main():
+ sys.stdout.reconfigure(encoding='utf-8')
  p=argparse.ArgumentParser(description=__doc__);g=p.add_mutually_exclusive_group();g.add_argument('--payload-base64');g.add_argument('--before');p.add_argument('--after');a=p.parse_args()
  try:
   data=read_payload(a);r=inspect_text(data['original'],data['revised'],data.get('protected_literals'))

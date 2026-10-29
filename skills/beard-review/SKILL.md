@@ -2,7 +2,7 @@
 name: beard-review
 description: 국문 원고를 고치지 않고 CD의 빨간펜 코멘트로 리뷰한다. 독자가 멈추는 곳, 상투적인 AI 말투, 메시지가 흐려지는 곳을 위치·이유·한 줄 처방으로 짚는다. "beard-review", "빨간펜 리뷰", "피드백만", "고치지 말고 봐줘" 요청에 사용한다.
 metadata:
-  version: "1.0.0"
+  version: "1.0.2"
 ---
 
 # beard-review
