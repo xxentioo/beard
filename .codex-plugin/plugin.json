@@ -1,0 +1,38 @@
+{
+  "name": "beard",
+  "version": "1.0.0",
+  "description": "원뜻과 말투는 지키고, 읽다가 걸리는 문장만 다듬는 국문 윤문 스킬. 말수 적은 크리에이티브 디렉터가 빨간 줄을 긋는다.",
+  "author": {
+    "name": "xxentioo",
+    "url": "https://github.com/xxentioo"
+  },
+  "homepage": "https://github.com/xxentioo/beard",
+  "repository": "https://github.com/xxentioo/beard",
+  "license": "MIT",
+  "keywords": [
+    "korean",
+    "editing",
+    "copywriting",
+    "proofreading"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Beard",
+    "shortDescription": "국문 윤문 스킬",
+    "longDescription": "원뜻과 말투는 지키고, 읽다가 걸리는 문장만 다듬는 국문 윤문 스킬. 말수 적은 크리에이티브 디렉터가 빨간 줄을 긋는다.",
+    "developerName": "xxentioo",
+    "category": "Productivity",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/xxentioo/beard",
+    "defaultPrompt": [
+      "$beard:beard 이 글을 자연스럽게 다듬어 주세요.",
+      "$beard:beard-review 고치지 말고 빨간펜 코멘트만 남겨 주세요.",
+      "$beard:beard-strategy 이 제안서의 키 메시지를 뽑아 주세요."
+    ],
+    "brandColor": "#111110",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

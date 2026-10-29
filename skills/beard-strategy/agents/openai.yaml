@@ -1,0 +1,4 @@
+interface:
+  display_name: "beard-strategy"
+  short_description: "키 메시지를 뽑고 결론이 먼저 오도록 기획 문서를 윤문합니다"
+  default_prompt: "$beard-strategy 스킬로 이 문서의 키 메시지를 뽑고 전략적으로 다듬어 주세요."

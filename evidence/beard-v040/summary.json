@@ -1,0 +1,1668 @@
+{
+  "version": "0.4.0",
+  "recorded": 88,
+  "groups": {
+    "meaning": {
+      "total": 24,
+      "changed": 0
+    },
+    "unchanged": {
+      "total": 8,
+      "changed": 0
+    },
+    "slop": {
+      "total": 24,
+      "changed": 12
+    },
+    "paragraph": {
+      "total": 24,
+      "changed": 14
+    },
+    "explanation": {
+      "total": 8,
+      "changed": 0
+    }
+  },
+  "mechanical_statuses": {
+    "no_mechanical_issue": 87,
+    "needs_review": 1
+  },
+  "reviewed": 88,
+  "behavior_flagged": 0,
+  "old_comparable": 50,
+  "different_from_old": 1,
+  "rows": [
+    {
+      "case_id": "meaning-01",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-02",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-03",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-04",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-05",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-06",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-07",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-08",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-09",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-10",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-11",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-12",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-13",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": true
+    },
+    {
+      "case_id": "meaning-14",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-15",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-16",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-17",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-18",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-19",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-20",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-21",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-22",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-23",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "meaning-24",
+      "group": "meaning",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "unchanged-01",
+      "group": "unchanged",
+      "expected_action": "preserve",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "unchanged-02",
+      "group": "unchanged",
+      "expected_action": "preserve",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "unchanged-03",
+      "group": "unchanged",
+      "expected_action": "preserve",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "unchanged-04",
+      "group": "unchanged",
+      "expected_action": "preserve",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "unchanged-05",
+      "group": "unchanged",
+      "expected_action": "preserve",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "unchanged-06",
+      "group": "unchanged",
+      "expected_action": "preserve",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "unchanged-07",
+      "group": "unchanged",
+      "expected_action": "preserve",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "unchanged-08",
+      "group": "unchanged",
+      "expected_action": "preserve",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-01",
+      "group": "slop",
+      "expected_action": "edit",
+      "pattern_ids": [
+        "SP01"
+      ],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "도입 예고만 제거하고 월요일 시작과 높임말을 유지했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-02",
+      "group": "slop",
+      "expected_action": "preserve",
+      "pattern_ids": [
+        "SP01"
+      ],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-03",
+      "group": "slop",
+      "expected_action": "edit",
+      "pattern_ids": [
+        "SP02"
+      ],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "신청자 증가를 두 번 말한 부분을 합쳤다. 새 원인·평가를 추가하지 않았다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-04",
+      "group": "slop",
+      "expected_action": "preserve",
+      "pattern_ids": [
+        "SP02"
+      ],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-05",
+      "group": "slop",
+      "expected_action": "edit",
+      "pattern_ids": [
+        "SP03"
+      ],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "검색에 정렬이 더해진 기능을 직접 썼다. 실제 부정 대조인 slop-06은 유지했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-06",
+      "group": "slop",
+      "expected_action": "preserve",
+      "pattern_ids": [
+        "SP03"
+      ],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-07",
+      "group": "slop",
+      "expected_action": "edit",
+      "pattern_ids": [
+        "SP04"
+      ],
+      "changed": true,
+      "mechanical_status": "needs_review",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "기한 안내의 수사적 질문을 금요일 마감 정보로 정리했다. 질문의 해야 표지가 사라졌지만 별도의 의무문장을 삭제한 것이 아니다. 기계 needs_review는 이 문맥 대조로 해소했다. 실제 FAQ인 slop-08은 유지했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-08",
+      "group": "slop",
+      "expected_action": "preserve",
+      "pattern_ids": [
+        "SP04"
+      ],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-09",
+      "group": "slop",
+      "expected_action": "edit",
+      "pattern_ids": [
+        "SP05"
+      ],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "빠르고/신속하게의 중복만 줄였고 새 속도 수치를 넣지 않았다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-10",
+      "group": "slop",
+      "expected_action": "preserve",
+      "pattern_ids": [
+        "SP05"
+      ],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-11",
+      "group": "slop",
+      "expected_action": "edit",
+      "pattern_ids": [
+        "SP06"
+      ],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "일정 변경 검토라는 행위를 직접 표현했고 담당자와 과거 시점을 유지했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-12",
+      "group": "slop",
+      "expected_action": "preserve",
+      "pattern_ids": [
+        "SP06"
+      ],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-13",
+      "group": "slop",
+      "expected_action": "edit",
+      "pattern_ids": [
+        "SP07"
+      ],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "검색 기능이라는 수단을 조사로 표현했다. 실제 경로·관점의 유지 사례는 그대로다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-14",
+      "group": "slop",
+      "expected_action": "preserve",
+      "pattern_ids": [
+        "SP07"
+      ],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-15",
+      "group": "slop",
+      "expected_action": "edit",
+      "pattern_ids": [
+        "SP08"
+      ],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "복구 능력의 중복 표현을 줄이고 복구 가능성을 유지했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-16",
+      "group": "slop",
+      "expected_action": "preserve",
+      "pattern_ids": [
+        "SP08"
+      ],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-17",
+      "group": "slop",
+      "expected_action": "edit",
+      "pattern_ids": [
+        "SP09"
+      ],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "같은 또한의 반복을 줄이고 저장과 사본 생성의 순서를 유지했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-18",
+      "group": "slop",
+      "expected_action": "preserve",
+      "pattern_ids": [
+        "SP09"
+      ],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": true,
+      "changed_vs_old": false
+    },
+    {
+      "case_id": "slop-19",
+      "group": "slop",
+      "expected_action": "edit",
+      "pattern_ids": [
+        "SP10"
+      ],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "끝났다는 메타 문장만 삭제하고 신분증 준비 정보를 유지했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "slop-20",
+      "group": "slop",
+      "expected_action": "preserve",
+      "pattern_ids": [
+        "SP10"
+      ],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "slop-21",
+      "group": "slop",
+      "expected_action": "edit",
+      "pattern_ids": [
+        "SP11"
+      ],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "동일 주어의 연속 행동을 연결하고 받기→열기의 순서를 유지했다. 의도적 반복인 slop-22는 그대로다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "slop-22",
+      "group": "slop",
+      "expected_action": "preserve",
+      "pattern_ids": [
+        "SP11"
+      ],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "slop-23",
+      "group": "slop",
+      "expected_action": "edit",
+      "pattern_ids": [
+        "SP12"
+      ],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "과도한 표식만 정리하고 금요일 마감과 높임말을 유지했다. 필수 경고인 slop-24는 그대로다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "slop-24",
+      "group": "slop",
+      "expected_action": "preserve",
+      "pattern_ids": [
+        "SP12"
+      ],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": true,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-01",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "화요일 오후2시·참석 가능 여부·월요일 회신 기한을 유지하며 중복 회신 안내를 합쳤다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-02",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "제안서 작성의 명사화만 줄였다. 현재 진행·법무 검토 미완료·검토 전 전송하지 않을 계획을 유지했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-03",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "20개 중3개 균열과 추가 시험 필요성을 보존했다. 보관 온도의 영향 대상을 균열로 명시했다. 표현이 늘었고 이득이 작은 수정으로 기록하며 자연스러움 우위로 세지 않는다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-04",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "추가 기능을 직접 표현하고 자동 변경하지 않는다는 부정과 담당자 확인 의무를 유지했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-05",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "같은 또한을 정리했다. 저장·사본 생성·원본 손상 시 사용 가능성과 최신성 확인 의무를 유지했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-06",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-07",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "예고 도입을 삭제하고 대출14일·예약 없음 조건·연장1회 가능성을 유지했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-08",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "일반 안내 질문을 직접 설명하고 수령 후7일·신청 가능성·사용 상품 제한 가능성을 유지했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-09",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "강조 표식만 정리하고 목요일 마감·방문 오후5시·온라인 밤12시 기한을 보존했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-10",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "전원 끄기→플러그 분리→덮개 열기의 순서와 전원이 켜진 상태의 손 넣기 금지를 유지했다. 절차를 합쳤으나 순서는 남았다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-11",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-12",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-13",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "도입을 지금으로 줄이고 기록의 양보다 찾을 수 있는지가 중요하다는 논지를 유지했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-14",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-15",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-16",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-17",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-18",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-19",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "앉아 기다리는 장면을 연결하고 진행·과거와 차가 식을 때까지 나가지 않았다는 조건을 유지했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-20",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "메타 결론과 우회 표현을 정리했다. 평온을 얻을 수 있었다는 서법·짧은 산책·동네1바퀴·귀가를 유지했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-21",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "사진 정리의 명사화만 줄였다. 기억을 떠올리는 가능성과 날짜를 지우지 않았다는 부정은 유지했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-22",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-23",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": true,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "응답 예고를 시장에 간 사실로 정리했다. 아버지의 행동·높임말과 먼저 걷지 않은 화자의 행동을 유지했다. 새 감정이나 오늘의 사건이라는 단정을 넣지 않았다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "paragraph-24",
+      "group": "paragraph",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "meaning-01-explain",
+      "group": "explanation",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다. 설명은 실제 유지 구간과 R/SP를 연결하고 자체 편집 판단을 명시했다. meaning-01/02의 공식 언어 설명은 가능성·진행 기능 범위이며 특정 수정 효과의 공식 입증으로 말하지 않았다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "meaning-02-explain",
+      "group": "explanation",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다. 설명은 실제 유지 구간과 R/SP를 연결하고 자체 편집 판단을 명시했다. meaning-01/02의 공식 언어 설명은 가능성·진행 기능 범위이며 특정 수정 효과의 공식 입증으로 말하지 않았다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "meaning-03-explain",
+      "group": "explanation",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다. 설명은 실제 유지 구간과 R/SP를 연결하고 자체 편집 판단을 명시했다. meaning-01/02의 공식 언어 설명은 가능성·진행 기능 범위이며 특정 수정 효과의 공식 입증으로 말하지 않았다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "meaning-04-explain",
+      "group": "explanation",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다. 설명은 실제 유지 구간과 R/SP를 연결하고 자체 편집 판단을 명시했다. meaning-01/02의 공식 언어 설명은 가능성·진행 기능 범위이며 특정 수정 효과의 공식 입증으로 말하지 않았다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "meaning-05-explain",
+      "group": "explanation",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다. 설명은 실제 유지 구간과 R/SP를 연결하고 자체 편집 판단을 명시했다. meaning-01/02의 공식 언어 설명은 가능성·진행 기능 범위이며 특정 수정 효과의 공식 입증으로 말하지 않았다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "meaning-06-explain",
+      "group": "explanation",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다. 설명은 실제 유지 구간과 R/SP를 연결하고 자체 편집 판단을 명시했다. meaning-01/02의 공식 언어 설명은 가능성·진행 기능 범위이며 특정 수정 효과의 공식 입증으로 말하지 않았다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "meaning-07-explain",
+      "group": "explanation",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다. 설명은 실제 유지 구간과 R/SP를 연결하고 자체 편집 판단을 명시했다. meaning-01/02의 공식 언어 설명은 가능성·진행 기능 범위이며 특정 수정 효과의 공식 입증으로 말하지 않았다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    },
+    {
+      "case_id": "meaning-08-explain",
+      "group": "explanation",
+      "expected_action": "contextual",
+      "pattern_ids": [],
+      "changed": false,
+      "mechanical_status": "no_mechanical_issue",
+      "behavior_signals": [],
+      "review": {
+        "reviewer": "implementing-agent-direct-review",
+        "fidelity_issue_observed": false,
+        "format_issue_observed": false,
+        "direction_matches": null,
+        "notes": "본문이 원문과 정확히 일치해 수치·조건·표현·말투의 변형은 없다. 유지 판단을 사례 목적과 대조했다. 설명은 실제 유지 구간과 R/SP를 연결하고 자체 편집 판단을 명시했다. meaning-01/02의 공식 언어 설명은 가능성·진행 기능 범위이며 특정 수정 효과의 공식 입증으로 말하지 않았다."
+      },
+      "old_recorded": false,
+      "changed_vs_old": null
+    }
+  ]
+}

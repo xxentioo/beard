@@ -1,0 +1,4 @@
+interface:
+  display_name: "beard-review"
+  short_description: "고치지 않고 CD의 빨간펜 코멘트로 원고를 리뷰합니다"
+  default_prompt: "$beard-review 스킬로 이 글을 고치지 말고 빨간펜 코멘트만 남겨 주세요."

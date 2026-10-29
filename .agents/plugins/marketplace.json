@@ -1,0 +1,21 @@
+{
+  "name": "beard",
+  "interface": {
+    "displayName": "Beard"
+  },
+  "plugins": [
+    {
+      "name": "beard",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/xxentioo/beard.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

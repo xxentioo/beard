@@ -1,0 +1,4 @@
+interface:
+  display_name: "beard"
+  short_description: "말수 적은 CD처럼 원뜻과 말투를 지키며 늘어진 국문에 빨간 줄을 긋습니다"
+  default_prompt: "$beard 스킬로 이 글을 자연스럽게 다듬어 주세요."

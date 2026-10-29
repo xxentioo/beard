@@ -1,0 +1,4 @@
+interface:
+  display_name: "beard-creative"
+  short_description: "원안을 다듬고 서로 다른 세 가지 카피 루트를 제안합니다"
+  default_prompt: "$beard-creative 스킬로 이 카피를 다듬고 다른 방향도 제안해 주세요."

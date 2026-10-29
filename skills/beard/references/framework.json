@@ -1,0 +1,393 @@
+{
+  "version": "0.1.0",
+  "framework_version": "nikl-2022",
+  "categories": [
+    {
+      "id": "NK22-E",
+      "label": "쉽게 쓰기",
+      "level": "domain",
+      "parent_id": null,
+      "source_id": "S10",
+      "locator": "인쇄 010쪽 / PDF 10번째 면",
+      "framework_version": "nikl-2022",
+      "id_origin": "project",
+      "scope": "text-review",
+      "scope_note": "공공언어 품질 축; 작성 주체 판별에 사용하지 않음"
+    },
+    {
+      "id": "NK22-E1",
+      "label": "형식의 용이성",
+      "level": "element",
+      "parent_id": "NK22-E",
+      "source_id": "S10",
+      "locator": "인쇄 010쪽 / PDF 10번째 면",
+      "framework_version": "nikl-2022",
+      "id_origin": "project",
+      "scope": "text-review",
+      "scope_note": "읽기 쉬운 문장과 구성의 점검. 원자료에 포함된 시각적 편의 중 서식·디자인 변경은 첫 버전 범위 밖"
+    },
+    {
+      "id": "NK22-E2",
+      "label": "내용의 용이성",
+      "level": "element",
+      "parent_id": "NK22-E",
+      "source_id": "S10",
+      "locator": "인쇄 010쪽 / PDF 10번째 면",
+      "framework_version": "nikl-2022",
+      "id_origin": "project",
+      "scope": "text-review",
+      "scope_note": "분량·배열·논리 연결을 문맥에 맞게 점검"
+    },
+    {
+      "id": "NK22-P",
+      "label": "국민의 처지에서 표현하기",
+      "level": "domain",
+      "parent_id": null,
+      "source_id": "S10",
+      "locator": "인쇄 010쪽 / PDF 10번째 면",
+      "framework_version": "nikl-2022",
+      "id_origin": "project",
+      "scope": "text-review",
+      "scope_note": "공공언어 품질 축; 작성 주체 판별에 사용하지 않음"
+    },
+    {
+      "id": "NK22-P1",
+      "label": "고압적 표현 삼가기",
+      "level": "element",
+      "parent_id": "NK22-P",
+      "source_id": "S10",
+      "locator": "인쇄 010쪽 / PDF 10번째 면",
+      "framework_version": "nikl-2022",
+      "id_origin": "project",
+      "scope": "context-review",
+      "scope_note": "안내문의 독자·관계·높임말 검토. 주장·의무를 임의로 완화하지 않음"
+    },
+    {
+      "id": "NK22-P2",
+      "label": "차별적 표현 삼가기",
+      "level": "element",
+      "parent_id": "NK22-P",
+      "source_id": "S10",
+      "locator": "인쇄 010쪽 / PDF 10번째 면",
+      "framework_version": "nikl-2022",
+      "id_origin": "project",
+      "scope": "context-review",
+      "scope_note": "설명 요청 시 문맥에 맞게 검토할 항목. 인용이나 발언의 취지를 조용히 바꾸는 자동 치환은 하지 않음"
+    },
+    {
+      "id": "NK22-A",
+      "label": "정확하게 쓰기",
+      "level": "domain",
+      "parent_id": null,
+      "source_id": "S10",
+      "locator": "인쇄 010쪽 / PDF 10번째 면",
+      "framework_version": "nikl-2022",
+      "id_origin": "project",
+      "scope": "text-review",
+      "scope_note": "공공언어 품질 축; 작성 주체 판별에 사용하지 않음"
+    },
+    {
+      "id": "NK22-A1",
+      "label": "표기의 정확성",
+      "level": "element",
+      "parent_id": "NK22-A",
+      "source_id": "S10",
+      "locator": "인쇄 010쪽 / PDF 10번째 면",
+      "framework_version": "nikl-2022",
+      "id_origin": "project",
+      "scope": "limited-orthography",
+      "scope_note": "보호 구간 밖의 명백한 오탈자·표기 점검. 종합 맞춤법 검사기의 전수 정확도를 보증하지 않음"
+    },
+    {
+      "id": "NK22-A2",
+      "label": "표현의 정확성",
+      "level": "element",
+      "parent_id": "NK22-A",
+      "source_id": "S10",
+      "locator": "인쇄 010쪽 / PDF 10번째 면",
+      "framework_version": "nikl-2022",
+      "id_origin": "project",
+      "scope": "text-review",
+      "scope_note": "단어 의미·문장 호응·논리와 의미 보존 대조"
+    }
+  ],
+  "rules": [
+    {
+      "id": "R01",
+      "label": "서술·시상",
+      "source_ids": [
+        "S09",
+        "S04",
+        "S11"
+      ],
+      "evidence_kinds": [
+        "project-hypothesis",
+        "editorial-advice"
+      ],
+      "validation_status": "draft",
+      "evaluation_history": [],
+      "evidence_support": [
+        {
+          "source_id": "S11",
+          "source_statement": "주의할 표현을 맥락에서 살피며, 모든 문장에 적용되는 교정 법칙을 내세우지 않는다.",
+          "editorial_application": "삭제·추가·풀어쓰기가 문맥상 이득을 주는지 먼저 확인한다.",
+          "application_origin": "project",
+          "scope_limit": "창작·교정 조언을 윤문 판단으로 옮긴 자체 해석; 효과 검증과 구별"
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "label": "명사화",
+      "source_ids": [
+        "S09",
+        "S02",
+        "S11"
+      ],
+      "evidence_kinds": [
+        "project-hypothesis",
+        "editorial-advice"
+      ],
+      "validation_status": "draft",
+      "evaluation_history": [],
+      "evidence_support": [
+        {
+          "source_id": "S11",
+          "source_statement": "주의할 표현을 맥락에서 살피며, 모든 문장에 적용되는 교정 법칙을 내세우지 않는다.",
+          "editorial_application": "삭제·추가·풀어쓰기가 문맥상 이득을 주는지 먼저 확인한다.",
+          "application_origin": "project",
+          "scope_limit": "창작·교정 조언을 윤문 판단으로 옮긴 자체 해석; 효과 검증과 구별"
+        }
+      ]
+    },
+    {
+      "id": "R03",
+      "label": "양태",
+      "source_ids": [
+        "S09",
+        "S03"
+      ],
+      "evidence_kinds": [
+        "project-hypothesis"
+      ],
+      "validation_status": "draft",
+      "evaluation_history": []
+    },
+    {
+      "id": "R04",
+      "label": "정보·역할",
+      "source_ids": [
+        "S09",
+        "S11",
+        "S12",
+        "S15"
+      ],
+      "evidence_kinds": [
+        "project-hypothesis",
+        "editorial-advice"
+      ],
+      "validation_status": "draft",
+      "evaluation_history": [],
+      "evidence_support": [
+        {
+          "source_id": "S11",
+          "source_statement": "주의할 표현을 맥락에서 살피며, 모든 문장에 적용되는 교정 법칙을 내세우지 않는다.",
+          "editorial_application": "삭제·추가·풀어쓰기가 문맥상 이득을 주는지 먼저 확인한다.",
+          "application_origin": "project",
+          "scope_limit": "창작·교정 조언을 윤문 판단으로 옮긴 자체 해석; 효과 검증과 구별"
+        },
+        {
+          "source_id": "S12",
+          "source_statement": "논증과 주제 집중, 군더더기 점검을 다룬다.",
+          "editorial_application": "업무·논증 글의 추상 평가를 본문 논거와 대조하되 새 근거를 만들지 않는다.",
+          "application_origin": "project",
+          "scope_limit": "창작·교정 조언을 윤문 판단으로 옮긴 자체 해석; 효과 검증과 구별"
+        },
+        {
+          "source_id": "S15",
+          "source_statement": "인물의 감각과 구체적 정보가 감정 이해에 관여한다고 설명한다.",
+          "editorial_application": "원문에 있는 장면·행동을 상투적 감정 해설로 덮지 않으며 새 묘사를 만들지 않는다.",
+          "application_origin": "project",
+          "scope_limit": "창작·교정 조언을 윤문 판단으로 옮긴 자체 해석; 효과 검증과 구별"
+        }
+      ]
+    },
+    {
+      "id": "R05",
+      "label": "마무리",
+      "source_ids": [
+        "S09",
+        "S12"
+      ],
+      "evidence_kinds": [
+        "project-hypothesis",
+        "editorial-advice"
+      ],
+      "validation_status": "draft",
+      "evaluation_history": [],
+      "evidence_support": [
+        {
+          "source_id": "S12",
+          "source_statement": "논증과 주제 집중, 군더더기 점검을 다룬다.",
+          "editorial_application": "업무·논증 글의 추상 평가를 본문 논거와 대조하되 새 근거를 만들지 않는다.",
+          "application_origin": "project",
+          "scope_limit": "창작·교정 조언을 윤문 판단으로 옮긴 자체 해석; 효과 검증과 구별"
+        }
+      ]
+    },
+    {
+      "id": "R06",
+      "label": "연결",
+      "source_ids": [
+        "S09",
+        "S02"
+      ],
+      "evidence_kinds": [
+        "project-hypothesis"
+      ],
+      "validation_status": "draft",
+      "evaluation_history": []
+    },
+    {
+      "id": "R07",
+      "label": "주체·서술",
+      "source_ids": [
+        "S09",
+        "S02",
+        "S11"
+      ],
+      "evidence_kinds": [
+        "project-hypothesis",
+        "editorial-advice"
+      ],
+      "validation_status": "draft",
+      "evaluation_history": [],
+      "evidence_support": [
+        {
+          "source_id": "S11",
+          "source_statement": "주의할 표현을 맥락에서 살피며, 모든 문장에 적용되는 교정 법칙을 내세우지 않는다.",
+          "editorial_application": "삭제·추가·풀어쓰기가 문맥상 이득을 주는지 먼저 확인한다.",
+          "application_origin": "project",
+          "scope_limit": "창작·교정 조언을 윤문 판단으로 옮긴 자체 해석; 효과 검증과 구별"
+        }
+      ]
+    },
+    {
+      "id": "R08",
+      "label": "리듬",
+      "source_ids": [
+        "S09",
+        "S13",
+        "S14",
+        "S15"
+      ],
+      "evidence_kinds": [
+        "project-hypothesis",
+        "editorial-advice"
+      ],
+      "validation_status": "draft",
+      "evaluation_history": [],
+      "evidence_support": [
+        {
+          "source_id": "S13",
+          "source_statement": "작품에 맞는 호흡을 찾으며, 리듬을 위한 생략이 뜻을 흐릴 수도 있다고 설명한다.",
+          "editorial_application": "기존 호흡·조사·반복을 보존하고 리듬 수정 뒤 의미를 재확인한다.",
+          "application_origin": "project",
+          "scope_limit": "창작·교정 조언을 윤문 판단으로 옮긴 자체 해석; 효과 검증과 구별"
+        },
+        {
+          "source_id": "S14",
+          "source_statement": "긴 문장·짧은 문장과 단어의 리듬을 작품에 맞게 구상한다고 설명한다.",
+          "editorial_application": "문장 길이를 획일화하거나 장단 비율을 맞추려는 수정을 하지 않는다.",
+          "application_origin": "project",
+          "scope_limit": "창작·교정 조언을 윤문 판단으로 옮긴 자체 해석; 효과 검증과 구별"
+        },
+        {
+          "source_id": "S15",
+          "source_statement": "인물의 감각과 구체적 정보가 감정 이해에 관여한다고 설명한다.",
+          "editorial_application": "원문에 있는 장면·행동을 상투적 감정 해설로 덮지 않으며 새 묘사를 만들지 않는다.",
+          "application_origin": "project",
+          "scope_limit": "창작·교정 조언을 윤문 판단으로 옮긴 자체 해석; 효과 검증과 구별"
+        }
+      ]
+    }
+  ],
+  "rule_mappings": [
+    {
+      "rule_id": "R01",
+      "primary_category_id": "NK22-E1",
+      "secondary_category_ids": [
+        "NK22-A2"
+      ],
+      "mapping_rationale": "우회적인 행위 표현을 덜고 시상 확인",
+      "extension_note": "진행·결과 상태의 삭제 금지, S04 함께 확인",
+      "mapping_origin": "project"
+    },
+    {
+      "rule_id": "R02",
+      "primary_category_id": "NK22-E1",
+      "secondary_category_ids": [
+        "NK22-A2"
+      ],
+      "mapping_rationale": "동작과 대상의 명료성",
+      "extension_note": "대상·대조의 초점 유지",
+      "mapping_origin": "project"
+    },
+    {
+      "rule_id": "R03",
+      "primary_category_id": "NK22-A2",
+      "secondary_category_ids": [
+        "NK22-E1"
+      ],
+      "mapping_rationale": "능력·가능성의 의미를 지키며 중복 점검",
+      "extension_note": "단정화 금지, S03 함께 확인",
+      "mapping_origin": "project"
+    },
+    {
+      "rule_id": "R04",
+      "primary_category_id": "NK22-E2",
+      "secondary_category_ids": [
+        "NK22-A2"
+      ],
+      "mapping_rationale": "중복과 필요한 정보·기능 구별",
+      "extension_note": "정서·논거·조건까지 확인",
+      "mapping_origin": "project"
+    },
+    {
+      "rule_id": "R05",
+      "primary_category_id": "NK22-E2",
+      "secondary_category_ids": [],
+      "mapping_rationale": "분량과 결론의 역할 점검",
+      "extension_note": "인사·요약·후속 행동은 장르별 유지",
+      "mapping_origin": "project"
+    },
+    {
+      "rule_id": "R06",
+      "primary_category_id": "NK22-E2",
+      "secondary_category_ids": [
+        "NK22-A2"
+      ],
+      "mapping_rationale": "문장 사이의 관계와 연결성",
+      "extension_note": "인과·대조를 잃으면 유지",
+      "mapping_origin": "project"
+    },
+    {
+      "rule_id": "R07",
+      "primary_category_id": "NK22-A2",
+      "secondary_category_ids": [
+        "NK22-E1"
+      ],
+      "mapping_rationale": "문장 호응과 행위의 명료성",
+      "extension_note": "없는 행위자 추가 금지",
+      "mapping_origin": "project"
+    },
+    {
+      "rule_id": "R08",
+      "primary_category_id": "NK22-E1",
+      "secondary_category_ids": [],
+      "mapping_rationale": "읽기 흐름과 관련된 확장 가설",
+      "extension_note": "공식 하위 항목으로 명명하지 않음, 효과 미검증",
+      "mapping_origin": "project"
+    }
+  ]
+}
